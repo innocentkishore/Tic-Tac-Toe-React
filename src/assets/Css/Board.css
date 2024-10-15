@@ -1,0 +1,31 @@
+.board-container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 2px;
+    /* background-color: #0dcaf0; */
+    border: 1px solid #000000;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .square:hover {
+    background-color: #dadada;
+  }
+  
+  .square-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }

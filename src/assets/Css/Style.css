@@ -1,0 +1,40 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
+
+  .board-row::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+img{
+  height: 100px;
+  width: 100px;
+}
+/* Style.css */
+.bg {
+  background-color: #f0f0f0; 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #43b2de; 
+  color: white; 
+  text-align: center;
+  padding: 10px 0; 
+}
